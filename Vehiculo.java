@@ -3,7 +3,6 @@ package parking;
 
 public class Vehiculo {
     private String modelo;
-    
     private String placa;
     private String TipoVehiculo; //Carro o Moto
     private Usuario dueño;

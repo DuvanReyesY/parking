@@ -17,7 +17,7 @@ public class Cubiculos {
             System.out.println("El cubiculo se encuentra ocupado");
         }           
     }
-    public void Liberar(Usuario user){
+    public void Liberar(){
         Estado = "Libre";
         System.out.println("Cubículo Disponible");
     }

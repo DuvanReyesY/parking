@@ -14,16 +14,8 @@ public class PersonalPark {
         this.Puesto = Puesto;    
     }
     
-    public boolean VerifCarnet(Usuario usuario){
-        if(!usuario.getCarnet().isEmpty()){
-            System.out.println("Carnet verificado");
-            return true;
-        }
-        else{
-            System.out.println("Carnet invalido");
-            return false;            
-        }
-        
+    public void ValideCarnet(Carnet login){
+        login.getValidar();
     }
 
     public String getNombre() {

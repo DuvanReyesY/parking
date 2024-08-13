@@ -5,14 +5,12 @@ package parking;
 public class Usuario {
     private int id;
     private String nombre;
-    private String tipoUsuario;
-    private String carnet;
+    private String tipoUsuario; //estudiante y maestro O funcionario
 
-    public Usuario(int id, String nombre, String tipoUsuario, String carnet) {
+    public Usuario(int id, String nombre, String tipoUsuario) {
         this.id = id;
         this.nombre = nombre;
         this.tipoUsuario = tipoUsuario;
-        this.carnet = carnet;
     }
 
     public int getId() {
@@ -37,14 +35,6 @@ public class Usuario {
 
     public void setTipoUsuario(String tipoUsuario) {
         this.tipoUsuario = tipoUsuario;
-    }
-
-    public String getCarnet() {
-        return carnet;
-    }
-
-    public void setCarnet(String carnet) {
-        this.carnet = carnet;
     }
     
 }
